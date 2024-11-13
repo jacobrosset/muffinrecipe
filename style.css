@@ -1,0 +1,31 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  h1,
+  h2,
+  h3,
+  img,
+  a,
+  footer,
+  li {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .image-container {
+    display: flex;
+    justify-content: center;
+    /* Centers the images within the container */
+    gap: 10px;
+    /* Adds spacing between the images */
+  }
+  
+  .image-container img {
+    width: 25%;
+    /* Sets each image to take up 25% of the container width */
+    height: auto;
+    /* Maintains the aspect ratio of the images */
+  }
